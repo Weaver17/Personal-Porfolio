@@ -1,15 +1,29 @@
 import React from "react";
 import { EXPERIENCES } from "../constants";
+import * as motion from "motion/react-client";
 
 const WorkXP = () => {
   return (
     <section className="pt-20" id="work">
-      <h2 className="text-center text-4xl font-semibold tracking-tighter">
+      <motion.h2
+        initial={{ opacity: 0, y: -20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+        className="text-center text-4xl font-semibold tracking-tighter"
+      >
         Work Experience
-      </h2>
-      <div className="space-y-10 p-10">
+      </motion.h2>
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1, delay: 0.5 }}
+        className="space-y-10 p-10"
+      >
         {EXPERIENCES.map((xp, index) => (
-          <div
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 1, delay: index * 0.4 }}
             key={index}
             className="rounded-xl border border-stone-50/30 bg-white/10 p-4"
           >
@@ -17,9 +31,9 @@ const WorkXP = () => {
             <p className="text-xl">{xp.company}</p>
             <p className="text-sm text-stone-300">{xp.duration}</p>
             <p className="mt-2 text-base">{xp.description}</p>
-          </div>
+          </motion.div>
         ))}
-      </div>
+      </motion.div>
     </section>
   );
 };
