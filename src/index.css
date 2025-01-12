@@ -15,3 +15,7 @@ body {
   background-color: #000;
   color: #fff;
 }
+
+.bg-img {
+  background-image: url("../src/assets/bg-img.png");
+}
