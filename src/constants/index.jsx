@@ -7,19 +7,18 @@ import {
   FaInstagram,
 } from "react-icons/fa6";
 
-import projectImage1 from "../assets/atus-imgs/Desktop-View.png";
-import projectImage2 from "../assets/tpcs-imgs/main.png";
-import projectImage3 from "../assets/wtwr-imgs/full-scrn/full_screen_signed_out_homepage.png";
-import projectImage4 from "../assets/wtwr-imgs/full-scrn/full_screen_signed_in_homepage.png";
+import ATUS from "../assets/atus-imgs/Desktop-View.png";
+import TPCS from "../assets/tpcs-imgs/main.png";
+import WTWR from "../assets/wtwr-imgs/full-scrn/full_screen_signed_out_homepage.png";
+import MIST from "../assets/mist-imgs/Desktop-Main.png";
 import projectImage5 from "../assets/wtwr-imgs/full-scrn/full_screen_add_modal.png";
 import projectImage6 from "../assets/wtwr-imgs/full-scrn/full_screen_register_modal.png";
 
-import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
+import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
-import { BiLogoPostgresql } from "react-icons/bi";
+import { FaHtml5, FaCss3Alt } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
 
 export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
@@ -31,10 +30,10 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const HERO = {
-  name: "CARL FRANK",
+  name: "ANDREW WEAVER",
   greet: "Hello there! 👋🏻",
   description:
-    "I am a passionate frontend developer with a knack for creating beautiful and functional user interfaces. I like transforming ideas into engaging web experiences for over a decade.",
+    "I am an Auto Body Technician-turned-Software Engineer with strong problem-solving skills and a keen attention to detail. I'm most comfortable with HTML, JavaScript, and React, and I’m eager to apply my technical expertise and adaptability to software development.",
 };
 
 export const PROJECTS = [
@@ -43,87 +42,92 @@ export const PROJECTS = [
     name: "Personal Portfolio",
     description:
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
-    image: projectImage1,
-    githubLink: "https://github.com/user/personal-portfolio",
+    image: projectImage5,
+    githubLink: "https://github.com/Weaver17/Personal-Porfolio",
   },
   {
     id: 2,
-    name: "E-Commerce Platform",
+    name: "Triple Peaks Coffee Shop",
     description:
-      "An e-commerce web application developed using Next.js and Stripe for payment integration, featuring a comprehensive product catalog, shopping cart, and checkout system.",
-    image: projectImage2,
-    githubLink: "https://github.com/user/ecommerce-platform",
+      "Developed my first webpage through TripleTen, gaining hands-on experience with real-world HTML and CSS practices to build a functional and visually appealing design.",
+    image: TPCS,
+    githubLink: "https://github.com/Weaver17/se_project_coffeeshop",
   },
   {
     id: 3,
-    name: "Task Management Tool",
+    name: "Around the U.S.",
     description:
-      "A task management application built with React and Redux for efficient task tracking and team collaboration, including features like project boards, task assignment, and progress tracking.",
-    image: projectImage3,
-    githubLink: "https://github.com/user/task-management-tool",
+      "For my introduction to JavaScript, the next project was a small homepage for a user on an image sharing website. This site has the option to edit your profile, add images, and like certian images of other users.",
+    image: ATUS,
+    githubLink: "https://github.com/Weaver17/se_project_aroundtheus",
   },
   {
     id: 4,
-    name: "Weather App",
+    name: "What to Wear",
     description:
-      "A weather application that uses the OpenWeatherMap API to fetch and display current weather data and forecasts for various locations, built with React and styled-components.",
-    image: projectImage4,
-    githubLink: "https://github.com/user/weather-app",
+      "My first full stack app! A MERN stack application that makes a call to an API, which then responds with the daily weather forecast. We collect the weather data, process it, and then based on the forecast, we recommend suitable clothing to the user.",
+    image: WTWR,
+    githubLink: "https://github.com/Weaver17/se_project_react",
   },
   {
     id: 5,
-    name: "Blog Platform",
+    name: "M I S T",
     description:
-      "A blogging platform developed with Next.js and Markdown for creating, editing, and publishing blog posts. It features a rich text editor, tag system, and user authentication.",
-    image: projectImage5,
+      "A MERN stack application designed for PC gaming enthusiasts and individuals who appreciate free content (excluding microtransactions). This app leverages shared components from WTWR to streamline development and maintain design consistency.",
+    image: MIST,
     githubLink: "https://github.com/user/blog-platform",
   },
-  {
-    id: 6,
-    name: "Chat Application",
-    description:
-      "A real-time chat application using Firebase for backend services, including user authentication, chat rooms, and instant messaging features. Built with React and Firebase.",
-    image: projectImage6,
-    githubLink: "https://github.com/user/chat-application",
-  },
+  // {
+  //   id: 6,
+  //   name: "Chat Application",
+  //   description:
+  //     "A real-time chat application using Firebase for backend services, including user authentication, chat rooms, and instant messaging features. Built with React and Firebase.",
+  //   image: projectImage6,
+  //   githubLink: "https://github.com/user/chat-application",
+  // },
 ];
 
 export const BIO = [
-  "Carl Frank studied computer science at the University of Technology,from which he graduated in 2010. Following his education, he honed his craft and expertise over the course of 10 years at Tech Innovations Inc., where he immersed himself in the world of frontend development.",
-  "In 2021, driven by a shared vision for innovative web solutions and a passion for creating extraordinary user experiences Carl Frank co-founded WebArtistry alongside his creative partner, Jane Doe. Together, they set out to redefine frontend development, infusing their projects with creativity and cutting-edge technology.",
-  "As a multi-disciplinary frontend developer, Carl Frank brings a wealth of skills and expertise to his work. From his deep understanding of HTML, CSS, and JavaScript to his proficiency in modern frameworks like React and Vue.js, Carl Frank possesses a versatile skill set that allows him to craft stunning and unforgettable web experiences for his clients and audiences alike.",
+  "Originally from New Jersey, I have been a resident of Columbus, Ohio, for the past 20 years and graduated from Olentangy High School in 2012. While my initial career aspirations were in veterinary technology, I discovered a passion for automotive detailing and body work, where I've honed my skills and developed a deep appreciation for precision and craftsmanship.",
+  "My longstanding interest in coding and software engineering led me to make a career change in 2024, enrolling in TripleTen's Software Engineering Bootcamp. This rigorous, self-paced, ten-month program employs two-week sprints to simulate real-world workflows and project management. Through this experience, I enhanced my HTML and CSS skills, gained proficiency in JavaScript and React, and acquired backend development expertise with technologies such as Node.js, Express, and MongoDB.",
 ];
 
 export const SKILLS = [
   {
+    icon: <FaHtml5 className="text-4xl text-orange-600 lg:text-5xl" />,
+    name: "HTML",
+    experience: "",
+  },
+  {
+    icon: <FaCss3Alt className="text-4xl text-blue-500 lg:text-5xl" />,
+    name: "CSS",
+    experience: "",
+  },
+  {
+    icon: <IoLogoJavascript className="text-4xl text-yellow-400 lg:text-5xl" />,
+    name: "JavaScript",
+    experience: "",
+  },
+  {
     icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "React",
-    experience: "2+ years",
-  },
-  {
-    icon: <TbBrandNextjs className="text-4xl text-white lg:text-5xl" />,
-    name: "Next.js",
-    experience: "1+ year",
-  },
-  {
-    icon: <SiMongodb className="text-4xl text-green-600 lg:text-5xl" />,
-    name: "MongoDB",
-    experience: "1.5+ years",
-  },
-  {
-    icon: <DiRedis className="text-4xl text-red-600 lg:text-5xl" />,
-    name: "Redis",
-    experience: "1+ year",
+    experience: "",
   },
   {
     icon: <FaNodeJs className="text-4xl text-green-600 lg:text-5xl" />,
     name: "Node.js",
-    experience: "2+ years",
+    experience: "",
+  },
+
+  {
+    icon: <SiMongodb className="text-4xl text-green-600 lg:text-5xl" />,
+    name: "MongoDB",
+    experience: "",
   },
   {
-    icon: <BiLogoPostgresql className="text-4xl text-sky-700 lg:text-5xl" />,
-    name: "PostgreSQL",
-    experience: "1+ year",
+    icon: <RiTailwindCssFill className="text-4xl text-cyan-500 lg:text-5xl" />,
+    name: "Tailwind",
+    experience: "",
   },
 ];
 

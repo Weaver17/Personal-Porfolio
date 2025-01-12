@@ -3,7 +3,6 @@ import { PROJECTS } from "../constants";
 import * as motion from "motion/react-client";
 
 const Projects = () => {
-  console.log("Projects component rendered");
   return (
     <section className="pt-20" id="projects">
       <motion.h2

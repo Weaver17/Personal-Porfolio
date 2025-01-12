@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import logo from "../assets/logo.png";
 
-import { NAVIGATION_LINKS } from "../constants";
+import { BIO, NAVIGATION_LINKS } from "../constants";
 import { FaTimes } from "react-icons/fa";
 import { FaBars } from "react-icons/fa6";
 
@@ -35,10 +35,10 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <div className="mx-auto hidden max-w-2xl items-center justify-center rounded border border-stone-50/30 bg-black/20 py-3 backdrop-blur-lg lg:flex">
           <div className="flex items-center justify-between gap-6">
-            <div>
-              <a href="#">
-                <img src={logo} width={150} alt="logo" />
-              </a>
+            <div className="">
+              {/* <h1 className="mx-auto p-2 text-xl font-bold text-white">
+                {BIO.name}
+              </h1> */}
             </div>
             <div>
               <ul className="flex items-center gap-4">
@@ -59,10 +59,10 @@ const Navbar = () => {
         </div>
         {/* Mobile Menu */}
         <div className="rounded-lg backdrop-blur-md lg:hidden">
-          <div className="flex items-center justify-between flex-nowrap">
-            <a href="#">
-              <img src={logo} alt="logo" width={90} className="m-2" />
-            </a>
+          <div className="flex items-center justify-end flex-nowrap">
+            {/* <h1 className="mx-auto p-2 text-xl font-bold text-white">
+              {BIO.name}
+            </h1> */}
             <div className="flex items-center">
               <button
                 className="focus:outline-none lg:hidden"
