@@ -25,7 +25,7 @@ const WorkXP = () => {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1, delay: index * 0.4 }}
             key={index}
-            className="rounded-xl border border-stone-50/30 bg-white/10 p-4"
+            className="rounded-xl border border-blue-100/30 bg-blue-100/10 p-4"
           >
             <h3 className="text-2xl font-semibold">{xp.title}</h3>
             <p className="text-xl">{xp.company}</p>

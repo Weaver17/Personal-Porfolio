@@ -83,7 +83,7 @@ const ContactForm = () => {
               value={formData.name}
               placeholder="Name"
               onChange={handleChange}
-              className="mb-8 w-full appearance-none rounded-lg border border-stone-50/30 bg-transparent px-3 py-2 text-sm focus:border-stone-400 focus:outline-none"
+              className="mb-8 w-full appearance-none rounded-lg border border-blue-500/30 bg-transparent px-3 py-2 text-sm focus:border-blue-500/50 focus:outline-none"
             />
             {errors.name && (
               <motion.p
@@ -103,7 +103,7 @@ const ContactForm = () => {
               value={formData.email}
               placeholder="Email"
               onChange={handleChange}
-              className="mb-8 w-full appearance-none rounded-lg border border-stone-50/30 bg-transparent px-3 py-2 text-sm focus:border-stone-400 focus:outline-none"
+              className="mb-8 w-full appearance-none rounded-lg border border-blue-500/30 bg-transparent px-3 py-2 text-sm focus:border-blue-500/50 focus:outline-none"
             />
             {errors.email && (
               <motion.p
@@ -124,7 +124,7 @@ const ContactForm = () => {
             placeholder="Message"
             onChange={handleChange}
             rows="6"
-            className="mb-8 w-full appearance-none rounded-lg border border-stone-50/30 bg-transparent px-3 py-2 text-sm focus:border-stone-400 focus:outline-none"
+            className="mb-8 w-full appearance-none rounded-lg border border-blue-500/30 bg-transparent px-3 py-2 text-sm focus:border-blue-500/50 focus:outline-none"
           />
           {errors.message && (
             <motion.p
@@ -138,7 +138,7 @@ const ContactForm = () => {
         </div>
         <button
           type="submit"
-          className={`mb-8 w-full rounded border border-stone-50/30 bg-stone-200 px-4 py-2 text-sm font-semibold text-stone-900 hover:bg-stone-300${
+          className={`mb-8 w-full rounded border border-blue-500/30 bg-blue-900/30 px-4 py-2 text-sm font-semibold text-stone-300 hover:bg-blue-900/60${
             isSending ? "cursor-not-allowed opacity-50" : ""
           }`}
           disabled={isSending}
