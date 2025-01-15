@@ -5,17 +5,6 @@ import * as motion from "motion/react-client";
 const Footer = () => {
   return (
     <div className="mb-8 mt-20">
-      <div className="flex items-center justify-center">
-        <motion.img
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.5 }}
-          src={logo}
-          alt="logo"
-          width={200}
-          className="my-20"
-        />
-      </div>
       <div className="flex items-center justify-center gap-8">
         {SOCIAL_MEDIA_LINKS.map((link, index) => (
           <motion.a

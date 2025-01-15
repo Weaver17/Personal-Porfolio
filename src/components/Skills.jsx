@@ -30,7 +30,7 @@ const Skills = () => {
           <motion.div
             variants={itemVariants}
             key={index}
-            className={`py-6 flex items-center justify-between ${
+            className={`py-6 flex items-center justify-center ${
               index !== SKILLS.length - 1 ? "border-b border-stone-50/30" : ""
             }`}
           >
@@ -38,9 +38,9 @@ const Skills = () => {
               {skill.icon}
               <h3 className="px-6 text-lg lg:text-2xl">{skill.name}</h3>
             </div>
-            <div className="text-md font-semibold lg:text-xl">
+            {/* <div className="text-md font-semibold lg:text-xl">
               <span>{skill.experience}</span>
-            </div>
+            </div> */}
           </motion.div>
         ))}
       </motion.div>

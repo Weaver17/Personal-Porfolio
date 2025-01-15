@@ -133,68 +133,44 @@ export const SKILLS = [
 
 export const EXPERIENCES = [
   {
-    title: "Lead Frontend Developer",
-    company: "Innovative Tech Solutions",
-    duration: "July 2020 - Present",
-    description:
-      "As the Lead Frontend Developer, I spearheaded the development of advanced web applications using cutting-edge technologies like React, Redux, and TypeScript. I worked closely with cross-functional teams, including designers, product managers, and backend developers, to deliver seamless and high-performance user experiences.",
+    title: "Reconditioning Associate/Senior Reconditioning Associate",
+    company: "Carmax",
+    duration: "September 2017 - Present",
+    description: "At Carmax, I began as an automotive detailer",
   },
   {
-    title: "Frontend Engineer",
-    company: "Digital Creations",
-    duration: "February 2016 - June 2020",
+    title: "Assistant/Chief Carpet Technician",
+    company: "Stanley Steemer",
+    duration: "March 2016 - September 2017",
     description:
-      "At Digital Creations, I focused on building highly interactive and responsive web interfaces using HTML, CSS, JavaScript, and modern libraries like React. I collaborated closely with UX/UI designers to implement design changes that enhanced user engagement and satisfaction. My role involved optimizing website performance, ensuring cross-browser compatibility, and implementing SEO best practices. ",
+      "I began as an Assistant, supporting the Crew Chief by managing equipment and hoses to ensure efficient operations. After six months, I was promoted to Crew Chief, where I took on the responsibility of identifying and effectively cleaning various materials, including carpet, upholstery, tile and grout, and leather. This role required attention to detail and a thorough understanding of cleaning techniques tailored to different surfaces.",
   },
   {
-    title: "Junior Web Developer",
-    company: "Bright Future Technologies",
-    duration: "August 2014 - January 2016",
+    title: "Pet Care Associate/Shift Lead",
+    company: "Pet Palace Boarding Resort",
+    duration: "May 2013 - December 2015",
     description:
-      "In my role as a Junior Web Developer, I assisted in the development and maintenance of various web applications. I gained hands-on experience in utilizing HTML, CSS, and JavaScript to create user-friendly interfaces. I actively participated in team meetings, contributed to project planning, and collaborated with senior developers to implement new features.",
+      "At Pet Palace, I was responsible for overseeing the care of up to 100 dogs, cats, and other pets. My duties included managing daycare activities, conducting daily walks, and maintaining detailed records on each pet's chart to ensure proper care and report potential issues. After a year and a half, I was promoted to Shift Lead, where I managed daily operations and supervised associates. In this role, I also administered medications, including insulin shots for cats, demonstrating precision and responsibility in handling medical needs.",
   },
 ];
 
 export const EDUCATION = [
   {
-    degree: "Master of Science in Computer Science",
-    institution: "Stanford University",
-    duration: "September 2012 - June 2014",
+    degree: "Full-Stack Web Developer Certificate",
+    institution: "TripleTen by Yandex",
+    duration: "January - October 2024",
     description:
-      "Specialized in Human-Computer Interaction and Software Engineering. Completed a thesis on enhancing user experience in web applications through advanced interactive techniques. Participated in various projects involving frontend development, algorithms, and data structures. Graduated with honors.",
-  },
-  {
-    degree: "Bachelor of Science in Information Technology",
-    institution: "University of California, Berkeley",
-    duration: "September 2008 - June 2012",
-    description:
-      "Focused on web development, programming languages, and database management. Actively involved in coding clubs and hackathons, where I developed several web applications using HTML, CSS, JavaScript, and PHP. Completed a senior project on developing an e-commerce platform. Graduated with a high GPA.",
+      "TripleTen are professional tech bootcamps that help people from all walks of life to become tech professionals. What makes TripleTen different is an in-depth curriculum with lots of practice, flexible lessons, all-around support, and career coaches that teach grads how to get hired. The Software Engineering bootcamp teaches full-stack web development using JavaScript and the MERN stack: MongoDB, Express, React, Node.js, as well as HTML5 and CSS, and Git/GitHub.",
   },
 ];
 
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://x.com/",
-    icon: <FaFacebook fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
-    icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
-    icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
-    icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://github.com/",
+    href: "https://github.com/Weaver17",
     icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/in/andrew-weaver-1725-profile/",
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
 ];
