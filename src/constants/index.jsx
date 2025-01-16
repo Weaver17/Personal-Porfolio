@@ -12,7 +12,7 @@ import TPCS from "../assets/tpcs-imgs/main.png";
 import WTWR from "../assets/wtwr-imgs/full-scrn/full_screen_signed_out_homepage.png";
 import MIST from "../assets/mist-imgs/Desktop-Main.png";
 import projectImage5 from "../assets/wtwr-imgs/full-scrn/full_screen_add_modal.png";
-import projectImage6 from "../assets/wtwr-imgs/full-scrn/full_screen_register_modal.png";
+import portfolio from "../assets/portfolio.png";
 
 import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
@@ -42,7 +42,7 @@ export const PROJECTS = [
     name: "Personal Portfolio",
     description:
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
-    image: projectImage5,
+    image: portfolio,
     githubLink: "https://github.com/Weaver17/Personal-Porfolio",
   },
   {
