@@ -33,15 +33,15 @@ const Projects = () => {
               initial={{ opacity: 0 }}
               whileHover={{ opacity: 1 }}
               transition={{ duration: 0.5 }}
-              className="absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 backdrop-blur-lg transition-opacity duration-500 group-hover:opacity-100"
+              className="absolute inset-0 flex flex-col items-center justify-center text-black opacity-0 backdrop-blur-lg transition-opacity duration-500 group-hover:opacity-05 group-hover:bg-white/40"
             >
-              <h3 className="mb-1 text-xl">{project.name}</h3>
-              <p className="mb-2 p-2">{project.description}</p>
+              <h3 className="text-l">{project.name}</h3>
+              <p className="mb-1 p-2 text-xs">{project.description}</p>
               <a
                 href={project.githubLink}
                 target="_blank"
                 rel="noopener norefferer"
-                className="rounded-full bg-white px-4 py-2 text-black hover:bg-gray-300"
+                className="rounded-full bg-white px-2 py-1 text-black hover:bg-gray-300"
               >
                 <div className="flex items-center">
                   <span>View on GitHib</span>
