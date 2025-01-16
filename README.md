@@ -1,8 +1,15 @@
-# React + Vite
+# My Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[Link to Vercel page](https://personal-porfolio-i8rsoxgvo-andrew-weavers-projects-a11c51f1.vercel.app/)
 
-Currently, two official plugins are available:
+##
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+
+- **React**: JavaScript library for building user interfaces.
+- **Vite**: Lightning-fast frontend tooling.
+- **Tailwind CSS**: Utility-first CSS framework.
+- **PostCSS**: CSS processing tool.
+- **React Icons**: Icon library for React projects.
+- **EmailJS**: Service for sending emails from the frontend.
+- **Framer Motion**: Animation library for React.
