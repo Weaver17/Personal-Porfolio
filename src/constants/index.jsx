@@ -136,7 +136,8 @@ export const EXPERIENCES = [
     title: "Reconditioning Associate/Senior Reconditioning Associate",
     company: "Carmax",
     duration: "September 2017 - Present",
-    description: "At Carmax, I began as an automotive detailer",
+    description:
+      "At CarMax, I began as an Automotive Detailer, responsible for thorough exterior and interior inspections, interior detailing, and exterior paint correction. Over time, I expanded my expertise to include specialized interior repair skills, such as restoring cloth and leather seats, as well as repairing dashboards and plastic panels. After five years, I transitioned into training for automotive bodywork, where I developed skills in sanding, masking, body filler repairs, and welding. This role required precision, attention to detail, and a commitment to high-quality workmanship",
   },
   {
     title: "Assistant/Chief Carpet Technician",
