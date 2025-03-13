@@ -10,9 +10,11 @@ import {
 import ATUS from "../assets/atus-imgs/Desktop-View.png";
 import TPCS from "../assets/tpcs-imgs/main.png";
 import WTWR from "../assets/wtwr-imgs/full-scrn/full_screen_signed_out_homepage.png";
-import MIST from "../assets/mist-imgs/Desktop-Main.png";
-import projectImage5 from "../assets/wtwr-imgs/full-scrn/full_screen_add_modal.png";
+import MIST from "../assets/mist-imgs/desktop.png";
+import TODO from "../assets/todo-imgs/desktop.png";
 import portfolio from "../assets/portfolio.png";
+import TASK from "../assets/task-img/desktop.png";
+import EXPT from "../assets/expt-imgs/desktop.png";
 
 import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
@@ -75,16 +77,32 @@ export const PROJECTS = [
     description:
       "A MERN stack application designed for PC gaming enthusiasts and individuals who appreciate free content (excluding microtransactions). This app leverages shared components from WTWR to streamline development and maintain design consistency.",
     image: MIST,
-    githubLink: "https://github.com/user/blog-platform",
+    githubLink: "https://github.com/Weaver17/Mist-frontend",
   },
-  // {
-  //   id: 6,
-  //   name: "Chat Application",
-  //   description:
-  //     "A real-time chat application using Firebase for backend services, including user authentication, chat rooms, and instant messaging features. Built with React and Firebase.",
-  //   image: projectImage6,
-  //   githubLink: "https://github.com/user/chat-application",
-  // },
+  {
+    id: 6,
+    name: "To Do App",
+    description:
+      "A small to-do list app with Typescritp and Tailwindcss. Simple interface and form submission make this easy to use and understand.",
+    image: TODO,
+    githubLink: "https://github.com/Weaver17/To-Do_App",
+  },
+  {
+    id: 7,
+    name: "Task Manager",
+    description:
+      "This is a full-stack Task Manager application built using the MERN stack with Next.js for the frontend. The application provides task management functionalities with animations, charts, and notifications.",
+    image: TASK,
+    githubLink: "https://github.com/Weaver17/Task_Manager",
+  },
+  {
+    id: 8,
+    name: "Expense Tracker",
+    description:
+      "This expense tracker app uses React + Typescript and Tailwindcss on the front end as well as Next.js on the back end. I also used Kinde for authentication and authorization features. It uses Prisma and SQLite to create and handle the database. ",
+    image: EXPT,
+    githubLink: "https://github.com/Weaver17/expenses_tracker_saas",
+  },
 ];
 
 export const BIO = [
