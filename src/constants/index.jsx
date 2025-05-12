@@ -11,10 +11,11 @@ import EXPT from "../assets/expt-imgs/desktop.png";
 import SHS2 from "../assets/shs2-imgs/desktop-stat-preview.png";
 import FAF from "../assets/faf-imgs/main.jpeg";
 
-import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
+import { RiReactjsLine, RiTailwindCssFill, RiNextjsFill } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
 import { FaHtml5, FaCss3Alt, FaNodeJs } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
+import { BiLogoTypescript } from "react-icons/bi";
 
 export const NAVIGATION_LINKS = [
     { label: "Projects", href: "#projects" },
@@ -124,16 +125,6 @@ export const BIO = [
 
 export const SKILLS = [
     {
-        icon: <FaHtml5 className="text-4xl text-orange-600 lg:text-5xl" />,
-        name: "HTML",
-        experience: "",
-    },
-    {
-        icon: <FaCss3Alt className="text-4xl text-blue-500 lg:text-5xl" />,
-        name: "CSS",
-        experience: "",
-    },
-    {
         icon: (
             <IoLogoJavascript className="text-4xl text-yellow-400 lg:text-5xl" />
         ),
@@ -143,6 +134,25 @@ export const SKILLS = [
     {
         icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
         name: "React",
+        experience: "",
+    },
+    {
+        icon: <RiNextjsFill className="text-4xl text-white lg:text-5xl" />,
+        name: "Next.js",
+        experience: "",
+    },
+    {
+        icon: (
+            <BiLogoTypescript className="text-4xl text-blue-500 lg:text-5xl" />
+        ),
+        name: "TypeScript",
+        experience: "",
+    },
+    {
+        icon: (
+            <RiTailwindCssFill className="text-4xl text-cyan-500 lg:text-5xl" />
+        ),
+        name: "Tailwind",
         experience: "",
     },
     {
@@ -156,11 +166,15 @@ export const SKILLS = [
         name: "MongoDB",
         experience: "",
     },
+
     {
-        icon: (
-            <RiTailwindCssFill className="text-4xl text-cyan-500 lg:text-5xl" />
-        ),
-        name: "Tailwind",
+        icon: <FaHtml5 className="text-4xl text-orange-600 lg:text-5xl" />,
+        name: "HTML",
+        experience: "",
+    },
+    {
+        icon: <FaCss3Alt className="text-4xl text-blue-500 lg:text-5xl" />,
+        name: "CSS",
         experience: "",
     },
 ];
