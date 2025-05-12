@@ -8,8 +8,8 @@ import TODO from "../assets/todo-imgs/desktop.png";
 import portfolio from "../assets/portfolio.png";
 import TASK from "../assets/task-img/desktop.png";
 import EXPT from "../assets/expt-imgs/desktop.png";
-import SHS2 from "../assets/shs2-imgs/desktop-main.png";
-import FAF from "../assets/faf-imgs/main.png";
+import SHS2 from "../assets/shs2-imgs/desktop-stat-preview.png";
+import FAF from "../assets/faf-imgs/main.jpeg";
 
 import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
